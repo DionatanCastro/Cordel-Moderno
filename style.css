@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media (min-width: 320px) and (max-width:568px){
+    header h1{
+        font-size: 3em;
+    }
+}
+@media (min-width:560px) and (max-width:700px){
+    header h1{
+        font-size: 3em;
+    }
+}
+@font-face {
+    font-family: 'passion one';
+    src: url(fonts/Passion_One/PassionOne-Regular.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fonts/Sriracha-Regular.ttf) format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #000000fb;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    font-size: 5em;
+    font-family: 'passion one';
+}
+section{
+    background-color: #ffffff7b;
+    padding: 20px;
+}
+.imagem1{
+    background-image: url(imagens/pexels-enginakyurt-2478348\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.caixa3{
+    background-image: url(imagens/fundo2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15vh;
+}
+p{
+    font-family: 'Sriracha';
+}
