@@ -3,11 +3,13 @@
 @media (min-width: 320px) and (max-width:568px){
     header h1{
         font-size: 3em;
+
     }
 }
 @media (min-width:560px) and (max-width:700px){
     header h1{
         font-size: 3em;
+
     }
 }
 @font-face {
@@ -27,11 +29,24 @@ header{
     background-color: #000000fb;
     color: rgb(255, 253, 253);
     text-align: center;
-    padding: 30px;
+    padding: 40px;
+    transition-duration: 5s;
+    transition-delay: 3s;
 }
+
 h1{
-    font-size: 5em;
+    font-size: 10vh;
     font-family: 'passion one';
+    transition-duration: 2s;
+    color: bisque;
+}
+
+a{
+    color: white;
+    transition-duration: 2s;
+}
+a:hover{
+    color: blue;
 }
 section{
     background-color: #ffffff7b;
@@ -55,4 +70,9 @@ section{
 }
 p{
     font-family: 'Sriracha';
+}
+.p1{
+    background-color: rgba(255, 255, 255, 0.41);
+    border-radius: 3px;
+    width: 200px;
 }
