@@ -49,16 +49,16 @@ a:hover{
     color: blue;
 }
 section{
-    background-color: #ffffff7b;
+    background-color: #ffffff;
     padding: 20px;
 }
 .imagem1{
-    background-image: url(imagens/solimagem.jpg);
+    background-image: url(imagens/sol2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding:20vh;
 }
 .caixa3{
     background-image: url(imagens/background001.jpg);
@@ -66,7 +66,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15vh;
+    padding: 20vh;
 }
 p{
     font-family: 'Sriracha';
