@@ -53,7 +53,7 @@ section{
     padding: 20px;
 }
 .imagem1{
-    background-image: url(imagens/pexels-enginakyurt-2478348\ \(1\).jpg);
+    background-image: url(imagens/solimagem.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@ section{
     padding: 50px;
 }
 .caixa3{
-    background-image: url(imagens/fundo2.jpg);
+    background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
