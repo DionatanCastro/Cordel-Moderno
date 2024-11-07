@@ -24,6 +24,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 header{
     background-color: #000000fb;
@@ -38,7 +39,9 @@ h1{
     font-size: 10vh;
     font-family: 'passion one';
     transition-duration: 2s;
+    text-transform: uppercase;
     color: bisque;
+
 }
 
 a{
@@ -50,7 +53,9 @@ a:hover{
 }
 section{
     background-color: #ffffff;
-    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
 }
 .imagem1{
     background-image: url(imagens/sol2.jpg);
@@ -58,7 +63,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding:20vh;
+
 }
 .caixa3{
     background-image: url(imagens/background001.jpg);
@@ -66,13 +71,16 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20vh;
+
 }
 p{
     font-family: 'Sriracha';
 }
-.p1{
-    background-color: rgba(255, 255, 255, 0.41);
-    border-radius: 3px;
-    width: 200px;
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
 }
